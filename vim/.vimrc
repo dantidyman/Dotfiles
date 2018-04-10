@@ -1,1 +1,4 @@
-/Users/danieltidyman/.vimrc
+syntax on
+set number
+
+colorscheme ayu
