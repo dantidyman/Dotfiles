@@ -12,18 +12,6 @@ brew "neofetch"
 brew "node"
 brew "tldr"
 brew "tty-clock"
-brew "argon/mas/mas"
 brew "crisidev/chunkwm/chunkwm", args: ["HEAD", "with-tmp-logging"]
 brew "getantibody/tap/antibody"
 brew "koekeishiya/formulae/skhd", args: ["HEAD", "with-logging"]
-mas "1Blocker", id: 1107421413
-mas "Bear", id: 1091189122
-mas "BetterSnapTool", id: 417375580
-mas "CARROT Weather", id: 993487541
-mas "Day One", id: 1055511498
-mas "Deliveries", id: 924726344
-mas "Keynote", id: 409183694
-mas "Pages", id: 409201541
-mas "Pixelmator", id: 407963104
-mas "Reeder", id: 880001334
-mas "Things3", id: 904280696
