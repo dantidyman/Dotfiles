@@ -1,0 +1,1 @@
+/Users/danieltidyman/.vim/colors/ayu.vim
