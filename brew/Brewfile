@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+tap "caskroom/cask"
 tap "argon/mas"
 brew "asciiquarium"
 brew "cowsay"
@@ -16,3 +17,5 @@ brew "crisidev/chunkwm/chunkwm", args: ["HEAD", "with-tmp-logging"]
 brew "crisidev/chunkwm/chunkwm-blur", args: ["HEAD"]
 brew "getantibody/tap/antibody"
 brew "koekeishiya/formulae/skhd", args: ["HEAD", "with-logging"]
+cask "kap"
+cask "launchrocket"

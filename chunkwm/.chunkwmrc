@@ -31,7 +31,15 @@ chunkc set global_desktop_offset_gap     15
 chunkc set global_desktop_mode           bsp
 #}}
 
+# Set some desktop values for #2
+#{{
 chunkc set 2_desktop_mode                monocle
+chunkc set 2_desktop_offset_top     20
+chunkc set 2_desktop_offset_bottom  20
+chunkc set 2_desktop_offset_left    20
+chunkc set 2_desktop_offset_right   20
+chunkc set 2_desktop_offset_gap     15
+#}}
 chunkc set 5_desktop_mode                float
 
 chunkc set desktop_padding_step_size     10.0
@@ -79,3 +87,8 @@ chunkc set wallpaper_blur	8.0
 chunkc set wallpaper_mode	fill
 chunkc set wallpaper_tmp_path	/tmp/
 #}}
+
+# How about some window ownership
+# {{
+chunkc tiling::rule --owner vtop --state float;\
+	chunkc tiling window --grid-layout 6:6:5:1:2:2
