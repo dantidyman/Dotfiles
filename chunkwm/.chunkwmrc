@@ -5,7 +5,7 @@
 #       loading a plugin. '~' expansion is supported.
 #
 
-chunkc core::plugin_dir /usr/local/opt/chunkwm/share/chunkwm/plugins
+chunkc core::plugin_dir ~/chunkwm_plugs/ 
 
 #
 # NOTE: if enabled, chunkwm will monitor the specified plugin_dir
@@ -68,4 +68,14 @@ chunkc set focused_border_skip_floating  0
 
 chunkc core::load border.so
 chunkc core::load tiling.so
-chunkc core::load ffm.so
+chunkc core::load ffm.s
+chunkc core::load blur.so
+
+# Set blur values
+#{{
+chunkc set wallpaper ~/Pictures/Wallpapers/Nature/cristina-gottardi-422394-unsplash.jpg
+chunkc set enable
+chunkc set wallpaper_blur	8.0
+chunkc set wallpaper_mode	fill
+chunkc set wallpaper_tmp_path	/tmp/
+#}}

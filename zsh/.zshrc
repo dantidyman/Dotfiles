@@ -17,6 +17,7 @@ fortune -s computers | cowsay | lolcat --seed 0
 alias fishies=' asciiquarium' #easier than typing
 alias man=' tldr' #cuz why not make my life easier
 alias brewupdate=' brew update && brew upgrade && brew doctor' #beefing up my brew
+alias services=' brew services' ##cuz I'm lazy
 
 #functions to help us not go crazy turning off and on finder hidden files
 function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles -bool TRUE && killall Finder }
