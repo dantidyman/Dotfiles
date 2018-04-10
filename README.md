@@ -10,6 +10,9 @@ This is a basic file for dotfiles for me. I'm working on actually teaching mysel
 Please report any bugs or suggestions. I'm new to scripting and dotfiles, so suggestions are welcome.
 
 ## Projects Used
+
 [Koekeishiya's chunkwm](https://github.com/koekeishiya/chunkwm): a tiling window manager for macOS that I've fallen in love with.
+
 [Koekeishiya's skhd](https://github.com/koekeishiya/skhd): hotkey manager for chunkwm
+
 [Sorin's Prezto](https://github.com/sorin-ionescu/prezto): sane ZSH configuration
