@@ -20,8 +20,8 @@ alias man=' tldr' #cuz why not make my life easier
 alias brewupdate=' brew update && brew upgrade && brew doctor' #beefing up my brew
 
 #functions to help us not go crazy turning off and on finder hidden files
-function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles YES && killall Finder }
-function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO && killall Finder }
+function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles -bool TRUE && killall Finder }
+function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles -bool FALSE && killall Finder }
 
 #let's make sure it always stays this ok?
 
