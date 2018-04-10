@@ -16,3 +16,5 @@ Please report any bugs or suggestions. I'm new to scripting and dotfiles, so sug
 [Koekeishiya's skhd](https://github.com/koekeishiya/skhd): hotkey manager for chunkwm
 
 [Sorin's Prezto](https://github.com/sorin-ionescu/prezto): sane ZSH configuration
+
+[Homebrew](https://brew.sh): package manager for macOS

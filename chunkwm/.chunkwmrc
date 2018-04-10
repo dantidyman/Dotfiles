@@ -73,7 +73,7 @@ chunkc core::load blur.so
 
 # Set blur values
 #{{
-chunkc set wallpaper ~/Pictures/Wallpapers/Nature/cristina-gottardi-422394-unsplash.jpg
+chunkc set wallpaper ~/Pictures/Wallpapers/Nature/derrick-cooper-411726-unsplash.jpg
 chunkc set enable
 chunkc set wallpaper_blur	8.0
 chunkc set wallpaper_mode	fill
