@@ -8,11 +8,11 @@ tap "argon/mas"
 brew "asciiquarium"
 brew "cowsay"
 brew "fortune"
-brew "htop"
 brew "neofetch"
 brew "node"
 brew "tldr"
 brew "tty-clock"
 brew "crisidev/chunkwm/chunkwm", args: ["HEAD", "with-tmp-logging"]
+brew "crisidev/chunkwm/chunkwm-blur", args: ["HEAD"]
 brew "getantibody/tap/antibody"
 brew "koekeishiya/formulae/skhd", args: ["HEAD", "with-logging"]
