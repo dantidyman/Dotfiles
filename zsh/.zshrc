@@ -15,7 +15,6 @@ fortune -s computers | cowsay | lolcat --seed 0
 
 #Let's create some alias' shall we?
 alias fishies=' asciiquarium' #easier than typing
-alias personal=' ssh root@dantidyman.me' #see above line
 alias man=' tldr' #cuz why not make my life easier
 alias brewupdate=' brew update && brew upgrade && brew doctor' #beefing up my brew
 
