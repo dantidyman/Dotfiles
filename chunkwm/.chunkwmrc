@@ -90,6 +90,7 @@ chunkc set wallpaper_tmp_path	/tmp/
 
 # How about some window ownership
 # {{
-chunkc tiling::rule --owner Messages  --state float;\
-	chunkc tiling window --grid-layout 4:4:1:1:2:2
+chunkc tiling::rule --owner Messages  --state monocle;\
+	chunkc tiling window --grid-layout 4:4:1:2:2:3
+chunkc tiling::rule --owner Safari --state monocle;
 #}}
