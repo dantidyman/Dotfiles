@@ -10,8 +10,10 @@ tap "argon/mas"
 brew "asciiquarium"
 brew "cowsay"
 brew "fortune"
+brew "htop"
 brew "libzip"
 brew "m-cli"
+brew "mas"
 brew "neofetch"
 brew "node"
 brew "sqlite"
@@ -35,3 +37,14 @@ cask "quicklookase"
 cask "suspicious-package"
 cask "webpquicklook"
 cask "caskroom/fonts/font-fira-code"
+mas "1Blocker", id: 1107421413
+mas "Bear", id: 1091189122
+mas "CARROT Weather", id: 993487541
+mas "Day One", id: 1055511498
+mas "Deliveries", id: 924726344
+mas "GIF Brewery 3", id: 1081413713
+mas "Keynote", id: 409183694
+mas "OhMyStar2", id: 1218642292
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Things3", id: 904280696
